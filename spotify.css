@@ -1,0 +1,386 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+    color: #fff;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+
+}
+
+
+.sidebar {
+    background-color: black;
+
+    width: 353px;
+    border-radius: 1rem;
+}
+
+.mainbar {
+    background-color: #121212;
+    width: 100px;
+    flex: 1;
+    overflow: scroll;
+    border-radius: 1rem;
+}
+
+.player {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    display: flex;
+
+}
+
+.nav {
+    background-color: #121212;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    line-height: 50px;
+    margin: .5rem 0.75rem;
+    word-spacing: 0.62rem;
+    border-radius: 1rem;
+}
+
+.option_nav a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.option_nav i {
+    font-size: 1.25rem;
+
+}
+
+.option__nav a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.option__nav i {
+    font-size: 1.25rem;
+
+}
+
+.option_nav {
+    opacity: 0.7;
+    background-color: #121212;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    left: 25px;
+
+}
+
+.option__nav {
+    opacity: 1;
+    background-color: #121212;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    left: 25px;
+
+}
+
+.option_nav:hover {
+    opacity: 1;
+}
+
+.library {
+    /* background-color: #121212; */
+    /* height: 120px; */
+    display: flex;
+
+
+    line-height: 70px;
+    /* margin: .5rem 0.75rem; */
+    word-spacing: 0.62rem;
+
+    justify-content: space-around;
+    font-size: 1.25rem;
+
+
+
+}
+
+.main_library {
+    background-color: #121212;
+    margin: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    height: 100vh;
+
+}
+
+.library_card {
+    background-color: #242424;
+    margin: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    margin: 16px 20px;
+}
+
+.card2 {
+    margin: 16px 20px;
+}
+
+.head_card {
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card_down {
+
+    font-size: 0.8125rem;
+}
+
+.card_button {
+    color: black;
+    font-weight: 800;
+    height: 30px;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 170px;
+    margin: 10px 10px 0px 0px;
+}
+
+.card_button:hover {
+    scale: 1.1;
+
+}
+
+.image {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-top: 0.7rem;
+
+
+
+
+}
+
+.current_song_pic img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+.song__name {
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.song_name {
+    margin: 10px 10px;
+}
+
+.singer {
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+.love {
+    font-size: 1.5rem;
+    margin: 11px 20px;
+}
+
+.time {
+    height: 100vh;
+    width: 800px;
+    display: grid;
+
+    grid-template-columns: 250px 300px 250px;
+    row-gap: 5px;
+    grid-template-rows: 50px 40px;
+    margin-left: 100px;
+
+}
+
+.player_icon:hover{
+    opacity: 1;
+
+}
+.player_icon{
+    opacity: 0.7;
+
+}
+.fa-regular{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: -3px;
+}
+.player_tools {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30px;
+    align-items: baseline;
+}
+.range {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  
+    margin: 10px 30px;
+    position: relative;
+    top:-10px;
+    
+    
+}
+
+.range_bar{
+    width: 700px;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    width: 350px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+
+
+
+}
+.tools i{
+    opacity: 0.7;
+}
+
+.tools input[type="range"]{
+    position: relative;
+    top: -20px;
+}
+
+.header{
+    display: flex;
+    line-height: 50px;
+    padding-top: 4px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    word-spacing: 10px;
+    align-items: center;
+}
+.space_mainbar{
+    width: 600px;
+}
+
+.premium{
+    width: 150px;
+    background-color: #fff;
+    color: black;
+    font-weight: 800;
+    font-size: 1.25rem;
+   
+    height: 400px;
+    padding: 4px 16px;
+   
+
+}
+
+.install{
+    width: 120px;
+    color: #fff;
+    background-color: black;
+    position: relative;
+    top: -6px;
+}
+
+.download_main{
+    position: relative;
+    right: -280px;
+}
+
+.header button{
+    height: 2rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+} 
+.main_mainbar{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.card{
+    width: 230px;
+    height: 300px;
+    border: 1px solid #201e1e ;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding:10px 10px;
+    transition-duration: 1s;
+    
+
+}
+.card img{
+    width: 225px;
+    
+    border-radius: 20px;
+
+}
+
+.firstline{
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.name{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card i{
+    font-size: 40px;
+    position: relative;
+    right: -170px;
+    top:-140px;
+    z-index: -100;
+
+}
+
+.card:hover{
+    background-color: rgb(75, 73, 73);
+}
+.low_heading{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.all_card{
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.low_heading button{
+    background-color: #242424;
+    color: #fff;
+    opacity: 0.7;
+}
